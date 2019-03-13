@@ -1,0 +1,24 @@
+{
+  "name": "chat_whith_socket",
+  "version": "0.1.0",
+  "description": "Un chat avec socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrisart12/Tchat-Socket.IO.git"
+  },
+  "author": "Issifou Issa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrisart12/Tchat-Socket.IO/issues"
+  },
+  "homepage": "https://github.com/Chrisart12/Tchat-Socket.IO#readme",
+  "dependencies": {
+    "nodemon": "~1.18.10",
+    "socket.io": "~2.2.0"
+  }
+}
