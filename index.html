@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Socket.io</title>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1>Un tchat avec socket.io!</h1>
+    <div id="users">
+    	
+    </div>
+
+    <div id="login">
+    	<form action="" id="loginform" >
+    		<h1>Bienvenue</h1>
+    		<p>Blablabla</p>
+    		<input type="text" name="login" id="username" placeholder="Nom de l'utilisateur">
+    		<input type="mail" name="mail" id="mail" placeholder="E-mail">
+    		<input type="submit" value="Envoyer">
+    	</form>
+    </div>
+
+    <form action="" id="form">
+    	<input type="text" name="" id="message" class="text">
+    	<input type="submit" name="" id="send" value="Envoyer mon message" class="submit">
+    </form>
+
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://localhost:1337/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="client.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
